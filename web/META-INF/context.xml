@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/LibraryProject_1">
+  <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+            name="LibraryProject" password="123456" type="javax.sql.DataSource" 
+            url="jdbc:sqlserver://localhost:1433;databaseName=LibraryProjectDB" username="sa"/>
+  <mvc:resources location="/resources/" mapping="/resources/**"/>
+</Context>

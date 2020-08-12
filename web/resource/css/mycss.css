@@ -1,0 +1,624 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 3, 2020, 3:13:35 PM
+    Author     : ADMIN
+*/
+
+.main-content{
+    height: 900px;
+    width: 100%;
+    float: left;
+
+}
+.main-content-80{
+
+    min-height: 500px;
+    max-height: 2000px;
+    width: 80%;
+    float: left;
+    min-height: 100px;
+    overflow: hidden;
+}
+.image-area{
+    height: 900px;
+    width: 50%;
+    float: left;
+}
+.login-area{
+    height: 900px;
+    width: 50%;
+    float: left;
+    background-color: aliceblue;
+}
+.form-panel{
+    height: 400px;
+    width: 100%;
+    float: left;
+    margin-top: 300px;
+}
+.form-name{
+    height: 80px;
+    width: 100%;
+    float: left;
+    padding-left: 170px;
+    font-weight: 900;
+    font-size: x-large;
+}
+.form-fill{
+    height: 60px;
+    width: 100%;
+    float: left;
+    padding-left: 30px;
+}
+.button-area{
+    height: 80px;
+    width: 100%;
+    float: left;
+}
+.login-button{
+    width: 90%;
+    margin-left: 30px;
+}
+.registry-area{
+    height: 50px;
+    width: 100%;
+    float: left;
+    padding-left: 180px;
+}
+.my-header{
+    height: 100px;
+    width: 100%;
+    float: left;
+    background-color: #fea700;
+}
+.header-topbar{
+    height: 30px;
+    width: 100%;
+    float: left;
+    background-color: #fea700;
+
+}
+.welcome-card{
+    height: 30px;
+    width: 25%;
+    float: left;
+
+    color: white;
+    padding-left: 20px;
+    font-family: cursive;
+}
+.contact-card{
+    height: 30px;
+    width: 6%;
+    float: right;
+
+    color: white;
+    font-family: cursive;
+}
+.header-middlebar{
+    height: 50px;
+    width: 100%;
+    float: left;
+}
+.title-card{
+    height: 50px;
+    width: 25%;
+    float: left;
+    color: white;
+    font-size: 40px;
+    padding-left: 100px;
+}
+.header-search-card{
+    height: 50px;
+    width: 45%;
+    float: left;
+    padding-left: 10px;
+    padding-top: 13px;
+}
+.account-card{
+    height: 50px;
+    width: 15%;
+    float: left;
+    padding-left: 80px;
+    padding-top: 13px;
+}
+.my-button-orange{
+    color: #fff;
+    background-color: #fea700;
+}
+.shopping-cart{
+    padding-top: 9px;
+    padding-left: 7px;
+    height: 53px;
+    width: 11%;
+    float: left;
+    border: 1px solid #fff;
+    color: white;
+    margin-top: 4px;
+}
+.shopping-cart:hover{
+    height: 57px;
+    width: 11.5%;
+    transition-duration: 0.5s;
+    border: 3px solid white;
+}
+.cart-infor{
+    height: 50px;
+    width: 77%;
+    float: right;
+    padding-top: 4px;
+}
+.name-cart{
+    height: 50px;
+    width: 71%;
+    float: left;
+    padding-left: 14px;
+    font-size: 16px;
+}
+.quantity-cart{
+    height: 25px;
+    width: 18%;
+    float: left;
+    padding-left: 6px;
+    background-color: cadetblue;
+}
+.category-bar{
+    height: 50px;
+    width: 100%;
+    float: left;
+}
+.margin-10px{
+    margin-right: 10px;
+}
+.my-footer{
+    height: 600px;
+    width: 100%;
+    float: left;
+    background: url('resource/img/footer-book-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.my-custom-dropdown{
+    border: 1px solid red;
+}
+.body{
+    font-size: 35px;
+}
+.main-page{
+    height: 1500px;
+    width: 100%;
+    float: left;
+}
+.big-image{
+    height: 400px;
+    width: 100%;
+    float: left;
+}
+.author-card{
+    height: 200px;
+    width: 100%;
+    float: left;
+}
+.titlt-author-card{
+    height: 50px;
+    width: 100%;
+    float: left;
+    font-size: x-large;
+    font-weight: 700;
+    color: brown;
+}
+.author{
+    height: 130px;
+    width: 13%;
+    float: left;
+    margin-left: 14px;
+}
+.author-image{
+    height: 100px;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.author-name{
+    height: 30px;
+    width: 100%;
+    float: left;
+    color: brown;
+    text-align: center;
+}
+.category-card{
+    height: 500px;
+    width: 100%;
+    float: left;
+}
+.title-category-card{
+    height: 50px;
+    width: 100%;
+    float: left;
+    font-weight: bold;
+    color: brown;
+}
+.book-card{
+    height: 250px;
+    width: 20%;
+    float: left;
+    margin-left: 52px;
+    padding-top: 10px;
+}
+.book-card:hover{
+    border: 2px solid lightgray;
+}
+.book-image{
+    height: 150px;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.book-name{
+    height: 50px;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.book-price{
+    height: 50px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    color: brown;
+}
+.our-contact{
+    height: 250px;
+    width: 80%;
+    float: left;
+    background-color: white;
+    margin-left: 150px;
+}
+.name-panel{
+    height: 100px;
+    width: 50%;
+    float: left;
+    font-size: 70px;
+    margin-left: 95px;
+    color: orange;
+    font-family: cursive;
+    margin-top: 50px;
+}
+.contact-panel{
+    height: 100px;
+    width: 36%;
+    float: left;
+    margin-top: 55px;
+    padding-left: 57px;
+    font-family: cursive;
+    border-left: 3px solid orange;
+}
+.left-side-card{
+    height: 500px;
+    width: 20%;
+    float: left;
+}
+.title-sub-menuside{
+    height: 50px;
+    width: 100%;
+    float: left;
+    padding-top: 5px;
+    font-weight: 600;
+    font-size: large;
+}
+.title-menuside{
+    height: 95px;
+    width: 100%;
+    float: left;
+    font-size: xx-large;
+    border-bottom: 1px solid lightgray;
+    padding-top: 35px;
+}
+.filter-card{
+    height: 200px;
+    width: 100%;
+    float: left;
+}
+.category-item{
+    height: 35px;
+    width: 100%;
+    float: left;
+}
+.category-item:hover{
+    color: orange;
+}
+.margin-44px.book-card {
+    margin-left: 44px;
+}
+.show-book-side{
+    width: 80%;
+    height: 1000px;
+    float: left;
+    padding-top: 55px;
+}
+a:hover{
+    text-decoration: none;
+}
+.cl-black{
+    color: black;
+}
+.book-detail{
+    height: 1000px;
+    width: 100%;
+    float: left;
+}
+.book-detail-img{
+    height: 500px;
+    width: 40%;
+    float: left;
+    border: 1px solid lightgray;
+    margin-top: 8px;
+}
+.mg-left-80px{
+    margin-left: 80px;
+
+}
+.mg-top-50px{
+    margin-top: 50px;
+}
+.book-detail-content{
+    height: 500px;
+    width: 60%;
+    float: left;
+    border: 1px solid lightgray;
+    margin-top: 8px;
+}
+.name-detail{
+    height: 200px;
+    width: 100%;
+    float: left;
+}
+.book-name-detail{
+    height: 95px;
+    width: 100%;
+    float: left;
+    padding-left: 50px;
+    padding-top: 30px;
+    font-size: xx-large;
+}
+.name-author{
+    height: 50px;
+    width: 100%;
+    float: left;
+    padding-left: 50px;
+}
+.price-detail{
+    height: 300px;
+    width: 60%;
+    float: left;
+    border-top: 1px solid lightgray;
+}
+.price-card{
+    height: 90px;
+    width: 100%;
+    float: left;
+    border: 1px solid lightgray;
+    font-size: x-large;
+    font-weight: 600;
+    padding-left: 50px;
+    color: red;
+    padding-top: 20px;
+}
+.btn-shopping{
+    height: 200px;
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.other-detail{
+    height: 300px;
+    width: 40%;
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    border: 1px solid lightgray;
+}
+.notify-succes{
+    height: 50px;
+    width: 300px;
+    z-index: 10;
+    position: absolute;
+    top: 110px;
+    right: 10px;
+    font-size: larger;
+    padding-left: 30px;
+    padding-top: 8px;
+}
+.notify-danger{
+    height: 50px;
+    width: 512px;
+    z-index: 10;
+    position: absolute;
+    top: 110px;
+    right: 10px;
+    font-size: larger;
+    padding-left: 30px;
+    padding-top: 8px;
+}
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 2s;
+    color: black;
+    margin-top: 4px;
+    margin-right: 6px;
+}
+.book-in-cart{
+    height: 200px;
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    border-bottom: 1px solid lightgray;
+}
+.img-book-cart{
+    height: 180px;
+    width: 20%;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.book-content-cart{
+    height: 152px;
+    width: 80%;
+    float: left;
+    font-size: x-large;
+    padding-top: 10px;
+}
+.cl-white{
+    color: white;
+    
+}
+.book-edit{
+    height: 40px;
+    width: 80%;
+    float: left;
+}
+.check-out{
+    height: 100px;
+    width: 17%;
+    float: left;
+    border: 1px solid lightgray;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.empty-div{
+    height: 200px;
+    width: 100%;
+    float: left;
+}
+.button-check-out{
+    height: 50px;
+    width: 80%;
+    float: left;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 10px;
+    
+}
+.button-bar{
+    width: 100%;
+    height: 50px;
+    float : left;
+    margin-top: 6px;
+    text-align: right;
+}
+.search-bar{
+    width: 100%;
+    height: 50px;
+    float : left;
+    border-top: 3px solid #9fcdff;
+}
+.search-icon{
+    width: 2%;
+    height: 50px;
+    float: left;
+    
+}
+#padding-top-8px{
+    padding-top: 8px;
+}
+.seach-value{
+    width: 98%;
+    height: 50px;
+    float: left;
+}
+.mg-top-20px{
+    margin-top: 20px;
+}
+.all-book-cart{
+    min-height: 500px;
+    max-height: 2000px;
+    width: 100%;
+    float: left;
+    min-height: 100px;
+    overflow: hidden;
+}
+.pagination-bar{
+    height: 50px;
+    width: 100%;
+    float: left;
+    padding-left: 500px;
+}
+.top-bar{
+    height: 30px;
+    width: 100%;
+    float: left;
+    background-color: #fea700;
+}
+.txt-center{
+    text-align: center;
+    padding-left: 283px;
+}
+.edit-quantity{
+    height: 40px;
+    width: 8%;
+    float: right;
+    margin-right: 430px;
+}
+.edition{
+    height: 32px;
+    width: 50%;
+    float: left;
+    border: 1px solid;
+    text-align: center;
+}
+.form-card{
+    /*height: 700px;*/
+    width: 100%;
+    float: left;
+    border-top: 3px solid #9fcdff;
+    padding-top: 30px;
+    min-height: 700px;
+    max-height: 1000px;
+    overflow: hidden;
+}
+.title-bar{
+    width: 100%;
+    height: 50px;
+    float: left;
+    text-align: left;
+    font-size: x-large;
+    padding-top: 10px;
+}
+.mg-bottom-20px{
+    margin-bottom: 20px;
+}
+.top-40px{
+    top: 40px;
+}
+.logout-div{
+    float: right;
+    padding-right: 10px;
+}
+.height-auto{
+    min-height: 130px;
+    max-height: 2000px;
+}
+.func-div{
+    height: 50px;
+    width: 50%;
+    float: right;
+    position: relative;
+    top: -43px;
+}
+

@@ -1,0 +1,11 @@
+Login=LoginServlet
+SearchBook=SearchBookServlet
+AddToCart=AddToCartServlet
+DeleteBook=DeleteBookServlet
+SearchBookAdmin=LoadAdminPageServlet
+ToCreatePage=LoadCreatePageServlet
+CreateNewBook=ValidationFormAddBookServlet
+EditBook=EditBookServlet
+UpdateBook=UpdateBookServlet
+ToStatisticPage=LoadStatisticPageServlet
+                      
